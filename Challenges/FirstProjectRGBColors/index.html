@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First Project - RGB Colors</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>RGB Color Selector</h1>
+    <form>
+      <label>
+        <span id="labelRed">(R) Red:</span>
+        <input id="rangeRed" type="range" min="0" max="255" />
+        <input id="textRed" type="text" disabled />
+      </label>
+      <br />
+      <label>
+        <span id="labelGreen">(G) Green:</span>
+        <input id="rangeGreen" type="range" min="0" max="255" />
+        <input id="textGreen" type="text" disabled />
+      </label>
+      <br />
+      <label>
+        <span id="labelBlue">(B) Blue:</span>
+        <input id="rangeBlue" type="range" min="0" max="255" />
+        <input id="textBlue" type="text" disabled />
+      </label>
+    </form>
+
+    <div id="colorFrame"></div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

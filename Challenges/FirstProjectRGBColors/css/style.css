@@ -1,0 +1,31 @@
+#colorFrame {
+  height: 120px;
+  width: 120px;
+  border: 1px solid lightgrey;
+  margin-left: 650px;
+  margin-top: 30px;
+}
+
+h1 {
+  font-family: monospace;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#labelRed {
+  margin-right: 45px;
+}
+
+#labelGreen {
+  margin-right: 35px;
+}
+
+#labelBlue {
+  margin-right: 42px;
+}
